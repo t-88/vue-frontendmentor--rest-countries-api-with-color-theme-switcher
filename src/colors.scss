@@ -1,0 +1,16 @@
+$light-theme-bg: hsl(0, 0%, 98%);
+$light-theme-element: hsl(0, 0%, 100%);
+$light-theme-input: hsl(0, 0%, 52%);
+$light-theme-text: hsl(200, 15%, 8%);
+
+$dark-theme-bg: hsl(207, 26%, 17%);
+$dark-theme-element: hsl(209, 23%, 22%);
+$dark-theme-text: hsl(0, 0%, 100%);
+
+$theme-transition-speed: 0.2s;
+$filter-element-animation-speed: .2s;
+
+@mixin box-shadow{
+    box-shadow: #00000026 0 3px 10px 0px;
+}
+
